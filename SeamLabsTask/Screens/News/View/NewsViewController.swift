@@ -27,6 +27,7 @@ class NewsViewController: BaseViewController {
     private func configureNewsTableView() {
         registerCell()
         bindAritclesData()
+        didSelectAricle() 
     }
     private func registerCell() {
         newsTableView.register(UINib(nibName: "NewsCell", bundle: nil), forCellReuseIdentifier: "NewsCell")
@@ -38,7 +39,9 @@ class NewsViewController: BaseViewController {
         }.disposed(by: disposeBag)
     }
     private func didSelectAricle() {
-        
+        newsTableView.rx.modelSelected(Articles.self).subscribe { [weak self] article in
+            self?.coordinator?.goToNeswDetails(article: article)
+        }.disposed(by: disposeBag)
     }
     private func setUpDatePicker() {
         datePicker.datePickerMode = .date
@@ -72,8 +75,8 @@ class NewsViewController: BaseViewController {
             .disposed(by: disposeBag)
     }
     private func setUpUI() {
-        let currentDate = Date().toString(dateFormat: "yyyy-MM-dd")
-        dateTextFiled.text = currentDate
+        self.title = "News"
+        dateTextFiled.text =  Constants.testDate
     }
 }
 

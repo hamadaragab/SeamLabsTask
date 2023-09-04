@@ -9,7 +9,7 @@ import Foundation
 
 import UIKit
 protocol NewsCoordinatorNavigaitons: AnyObject {
-    func goToNeswDetails()
+    func goToNeswDetails(article: Articles) 
     
 }
 class NewsCoordinator: BaseCoordinator {
@@ -30,9 +30,10 @@ class NewsCoordinator: BaseCoordinator {
 }
 
 extension NewsCoordinator: NewsCoordinatorNavigaitons{
-    func goToNeswDetails() {
-//        let coordinator = LogInCoordinator(navigationController: navigationController, presentingStyle: .push)
-//        childCoordinators.append(coordinator)
-//        coordinator.start(parentCoordinator: self)
+    func goToNeswDetails(article: Articles) {
+        let newsDateilsCoordinator = NewsDateilsCoordinator(navigationController: navigationController, presentingStyle: .push)
+        childCoordinators.append(newsDateilsCoordinator)
+        newsDateilsCoordinator.selectedArticle = article
+        newsDateilsCoordinator.start(parentCoordinator: self)
     }
 }

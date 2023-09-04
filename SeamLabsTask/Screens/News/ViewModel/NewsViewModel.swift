@@ -18,7 +18,10 @@ class NewsViewModel {
     }()
 
     init(){
-        getArticles(fromDate: "2023-08-24")
+        // use test date for first time
+        // because toDay Date will not return Data
+        // test Date "2023-08-24"
+        getArticles(fromDate: Constants.testDate)
     }
      func getArticles(fromDate: String) {
         self.showLoading.accept(true)

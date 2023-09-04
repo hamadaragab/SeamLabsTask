@@ -17,7 +17,7 @@ class AppCoordinator{
         let coordinator = NewsCoordinator(navigationController: navigationController, presentingStyle: .push)
         childCoordinators.append(coordinator)
         coordinator.start(parentCoordinator: BaseCoordinator(navigation: navigationController, presentingStyle: .push))
-        navigationController.navigationBar.isHidden = true
+//        navigationController.navigationBar.isHidden = true
         navigationController.interactivePopGestureRecognizer?.isEnabled = false
         window?.rootViewController = navigationController
         window?.overrideUserInterfaceStyle = .light

@@ -6,24 +6,57 @@
 //
 
 import UIKit
-
+import RxSwift
+import RxCocoa
 class NewsViewController: UIViewController {
-
+    
+    @IBOutlet weak var dateTextFiled: UITextField!
+    @IBOutlet weak var newsTableView: UITableView!
+    weak var coordinator: NewsCoordinatorNavigaitons?
+    var viewModel: NewsViewModel?
+    private let disposeBag = DisposeBag()
+    private let datePicker = UIDatePicker()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        configureNewsTableView()
+        setUpDatePicker()
     }
-
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    private func configureNewsTableView() {
+        registerCell()
+        bindAritclesData()
     }
-    */
+    private func registerCell() {
+        newsTableView.register(UINib(nibName: "NewsCell", bundle: nil), forCellReuseIdentifier: "NewsCell")
+        newsTableView.rx.setDelegate(self).disposed(by: disposeBag)
+    }
+    private func bindAritclesData() {
+        
+    }
+    private func didSelectAricle() {
+        
+    }
+    private func setUpDatePicker() {
+        datePicker.datePickerMode = .date
+        datePicker.preferredDatePickerStyle = .inline
+       
+        dateTextFiled.rx.controlEvent(.editingDidBegin)
+            .subscribe(onNext: { [weak self] in
+                self?.dateTextFiled.inputView = self?.datePicker
+            })
+            .disposed(by: disposeBag)
+        
+        datePicker.rx.controlEvent(.valueChanged)
+            .subscribe(onNext: { [weak self] in
+                self?.dateTextFiled.text = self?.datePicker.date.description
+                print(self?.datePicker.date)
+            })
+            .disposed(by: disposeBag)
+    }
+   }
 
+extension NewsViewController: UITableViewDelegate {
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return UITableView.automaticDimension
+    }
 }

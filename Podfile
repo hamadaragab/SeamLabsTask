@@ -11,6 +11,8 @@ target 'SeamLabsTask' do
   pod 'RxCocoa'
   pod 'Kingfisher'
   pod 'Cosmos', '~> 23.0'
+  pod 'RPCircularProgress'
+
 
   target 'SeamLabsTaskTests' do
     inherit! :search_paths

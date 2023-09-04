@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		0943D6C2DD11F3DC6F479251 /* Pods_SeamLabsTask_SeamLabsTaskUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5428448729A8DCAFB26CBB2 /* Pods_SeamLabsTask_SeamLabsTaskUITests.framework */; };
 		364098ED6E4CBCB51CA5FF80 /* Pods_SeamLabsTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B1936A73AEF20332F3F4EE2 /* Pods_SeamLabsTask.framework */; };
+		414A0C0B2AA627BE0000F52C /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414A0C092AA627BE0000F52C /* NewsCell.swift */; };
+		414A0C0C2AA627BE0000F52C /* NewsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 414A0C0A2AA627BE0000F52C /* NewsCell.xib */; };
+		414A0C102AA628AF0000F52C /* BaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414A0C0D2AA628AF0000F52C /* BaseResponse.swift */; };
+		414A0C112AA628AF0000F52C /* Articles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414A0C0E2AA628AF0000F52C /* Articles.swift */; };
+		414A0C122AA628AF0000F52C /* Source.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414A0C0F2AA628AF0000F52C /* Source.swift */; };
+		414A0C152AA62A420000F52C /* Spinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414A0C142AA62A420000F52C /* Spinner.swift */; };
 		418456632AA5C46E00D636BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418456622AA5C46E00D636BB /* AppDelegate.swift */; };
 		418456652AA5C46E00D636BB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418456642AA5C46E00D636BB /* SceneDelegate.swift */; };
 		4184566D2AA5C46E00D636BB /* SeamLabsTask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4184566B2AA5C46E00D636BB /* SeamLabsTask.xcdatamodeld */; };
@@ -21,6 +27,12 @@
 		418456A02AA5C66500D636BB /* NewsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4184569E2AA5C66500D636BB /* NewsViewController.xib */; };
 		418456A42AA5DB6F00D636BB /* NeswDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418456A22AA5DB6F00D636BB /* NeswDetailsViewController.swift */; };
 		418456A52AA5DB6F00D636BB /* NeswDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 418456A32AA5DB6F00D636BB /* NeswDetailsViewController.xib */; };
+		41A935CE2AA62B1900CDABC4 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A935CD2AA62B1900CDABC4 /* BaseViewController.swift */; };
+		41A935D02AA62BAC00CDABC4 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A935CF2AA62BAC00CDABC4 /* UIImageView.swift */; };
+		41A935D22AA62E8D00CDABC4 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A935D12AA62E8D00CDABC4 /* Coordinator.swift */; };
+		41A935D42AA62E9C00CDABC4 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A935D32AA62E9C00CDABC4 /* AppCoordinator.swift */; };
+		41A935D62AA62F1300CDABC4 /* NewsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A935D52AA62F1300CDABC4 /* NewsCoordinator.swift */; };
+		41A935D82AA62F6D00CDABC4 /* NewsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A935D72AA62F6D00CDABC4 /* NewsViewModel.swift */; };
 		41E480372AA6137500044D2E /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E480362AA6137500044D2E /* NetworkManager.swift */; };
 		41E480392AA613A400044D2E /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E480382AA613A400044D2E /* Reachability.swift */; };
 		41E4803B2AA6163600044D2E /* NetWorkEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E4803A2AA6163600044D2E /* NetWorkEnums.swift */; };
@@ -48,6 +60,12 @@
 		072394F613983FC22121AEC4 /* Pods-SeamLabsTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeamLabsTask.release.xcconfig"; path = "Target Support Files/Pods-SeamLabsTask/Pods-SeamLabsTask.release.xcconfig"; sourceTree = "<group>"; };
 		28389E4B77CCF18709BB2A1B /* Pods-SeamLabsTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeamLabsTask.debug.xcconfig"; path = "Target Support Files/Pods-SeamLabsTask/Pods-SeamLabsTask.debug.xcconfig"; sourceTree = "<group>"; };
 		323073A317F0F43D815EB757 /* Pods-SeamLabsTaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeamLabsTaskTests.release.xcconfig"; path = "Target Support Files/Pods-SeamLabsTaskTests/Pods-SeamLabsTaskTests.release.xcconfig"; sourceTree = "<group>"; };
+		414A0C092AA627BE0000F52C /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
+		414A0C0A2AA627BE0000F52C /* NewsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsCell.xib; sourceTree = "<group>"; };
+		414A0C0D2AA628AF0000F52C /* BaseResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseResponse.swift; sourceTree = "<group>"; };
+		414A0C0E2AA628AF0000F52C /* Articles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Articles.swift; sourceTree = "<group>"; };
+		414A0C0F2AA628AF0000F52C /* Source.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Source.swift; sourceTree = "<group>"; };
+		414A0C142AA62A420000F52C /* Spinner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spinner.swift; sourceTree = "<group>"; };
 		4184565F2AA5C46E00D636BB /* SeamLabsTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeamLabsTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		418456622AA5C46E00D636BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		418456642AA5C46E00D636BB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +82,12 @@
 		4184569E2AA5C66500D636BB /* NewsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsViewController.xib; sourceTree = "<group>"; };
 		418456A22AA5DB6F00D636BB /* NeswDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeswDetailsViewController.swift; sourceTree = "<group>"; };
 		418456A32AA5DB6F00D636BB /* NeswDetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NeswDetailsViewController.xib; sourceTree = "<group>"; };
+		41A935CD2AA62B1900CDABC4 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		41A935CF2AA62BAC00CDABC4 /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
+		41A935D12AA62E8D00CDABC4 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		41A935D32AA62E9C00CDABC4 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		41A935D52AA62F1300CDABC4 /* NewsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCoordinator.swift; sourceTree = "<group>"; };
+		41A935D72AA62F6D00CDABC4 /* NewsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewModel.swift; sourceTree = "<group>"; };
 		41E480362AA6137500044D2E /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		41E480382AA613A400044D2E /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		41E4803A2AA6163600044D2E /* NetWorkEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorkEnums.swift; sourceTree = "<group>"; };
@@ -103,6 +127,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		414A0C082AA627970000F52C /* tableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				414A0C092AA627BE0000F52C /* NewsCell.swift */,
+				414A0C0A2AA627BE0000F52C /* NewsCell.xib */,
+			);
+			path = tableViewCell;
+			sourceTree = "<group>";
+		};
+		414A0C132AA62A230000F52C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				414A0C142AA62A420000F52C /* Spinner.swift */,
+				41A935CD2AA62B1900CDABC4 /* BaseViewController.swift */,
+				41A935D12AA62E8D00CDABC4 /* Coordinator.swift */,
+				41A935D32AA62E9C00CDABC4 /* AppCoordinator.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		418456562AA5C46E00D636BB = {
 			isa = PBXGroup;
 			children = (
@@ -133,6 +177,7 @@
 				418456952AA5C49300D636BB /* AppFile */,
 				418456982AA5C50500D636BB /* Extensions */,
 				418456AB2AA5DBD400D636BB /* Networking */,
+				414A0C132AA62A230000F52C /* Helpers */,
 			);
 			path = SeamLabsTask;
 			sourceTree = "<group>";
@@ -186,6 +231,7 @@
 		418456982AA5C50500D636BB /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				41A935CF2AA62BAC00CDABC4 /* UIImageView.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -204,6 +250,9 @@
 		4184569A2AA5C59100D636BB /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				414A0C0E2AA628AF0000F52C /* Articles.swift */,
+				414A0C0D2AA628AF0000F52C /* BaseResponse.swift */,
+				414A0C0F2AA628AF0000F52C /* Source.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -211,6 +260,7 @@
 		4184569B2AA5C59900D636BB /* View */ = {
 			isa = PBXGroup;
 			children = (
+				414A0C082AA627970000F52C /* tableViewCell */,
 				4184569D2AA5C66500D636BB /* NewsViewController.swift */,
 				4184569E2AA5C66500D636BB /* NewsViewController.xib */,
 			);
@@ -220,6 +270,7 @@
 		4184569C2AA5C59E00D636BB /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				41A935D72AA62F6D00CDABC4 /* NewsViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -268,6 +319,7 @@
 		418456AA2AA5DB9B00D636BB /* Coordiantor */ = {
 			isa = PBXGroup;
 			children = (
+				41A935D52AA62F1300CDABC4 /* NewsCoordinator.swift */,
 			);
 			path = Coordiantor;
 			sourceTree = "<group>";
@@ -416,6 +468,7 @@
 			files = (
 				418456A52AA5DB6F00D636BB /* NeswDetailsViewController.xib in Resources */,
 				418456722AA5C47200D636BB /* LaunchScreen.storyboard in Resources */,
+				414A0C0C2AA627BE0000F52C /* NewsCell.xib in Resources */,
 				4184566F2AA5C47200D636BB /* Assets.xcassets in Resources */,
 				418456A02AA5C66500D636BB /* NewsViewController.xib in Resources */,
 			);
@@ -545,13 +598,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41A935D22AA62E8D00CDABC4 /* Coordinator.swift in Sources */,
 				41E480392AA613A400044D2E /* Reachability.swift in Sources */,
+				41A935D42AA62E9C00CDABC4 /* AppCoordinator.swift in Sources */,
+				41A935D02AA62BAC00CDABC4 /* UIImageView.swift in Sources */,
+				414A0C0B2AA627BE0000F52C /* NewsCell.swift in Sources */,
 				41E480372AA6137500044D2E /* NetworkManager.swift in Sources */,
+				414A0C102AA628AF0000F52C /* BaseResponse.swift in Sources */,
+				414A0C152AA62A420000F52C /* Spinner.swift in Sources */,
+				41A935CE2AA62B1900CDABC4 /* BaseViewController.swift in Sources */,
+				41A935D82AA62F6D00CDABC4 /* NewsViewModel.swift in Sources */,
 				4184566D2AA5C46E00D636BB /* SeamLabsTask.xcdatamodeld in Sources */,
 				418456632AA5C46E00D636BB /* AppDelegate.swift in Sources */,
+				41A935D62AA62F1300CDABC4 /* NewsCoordinator.swift in Sources */,
 				418456652AA5C46E00D636BB /* SceneDelegate.swift in Sources */,
 				4184569F2AA5C66500D636BB /* NewsViewController.swift in Sources */,
+				414A0C122AA628AF0000F52C /* Source.swift in Sources */,
 				418456A42AA5DB6F00D636BB /* NeswDetailsViewController.swift in Sources */,
+				414A0C112AA628AF0000F52C /* Articles.swift in Sources */,
 				41E4803B2AA6163600044D2E /* NetWorkEnums.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

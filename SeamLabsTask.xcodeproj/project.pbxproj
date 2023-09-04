@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0943D6C2DD11F3DC6F479251 /* Pods_SeamLabsTask_SeamLabsTaskUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5428448729A8DCAFB26CBB2 /* Pods_SeamLabsTask_SeamLabsTaskUITests.framework */; };
+		364098ED6E4CBCB51CA5FF80 /* Pods_SeamLabsTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B1936A73AEF20332F3F4EE2 /* Pods_SeamLabsTask.framework */; };
 		418456632AA5C46E00D636BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418456622AA5C46E00D636BB /* AppDelegate.swift */; };
 		418456652AA5C46E00D636BB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418456642AA5C46E00D636BB /* SceneDelegate.swift */; };
 		4184566D2AA5C46E00D636BB /* SeamLabsTask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4184566B2AA5C46E00D636BB /* SeamLabsTask.xcdatamodeld */; };
@@ -17,6 +19,12 @@
 		418456892AA5C47300D636BB /* SeamLabsTaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418456882AA5C47300D636BB /* SeamLabsTaskUITestsLaunchTests.swift */; };
 		4184569F2AA5C66500D636BB /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4184569D2AA5C66500D636BB /* NewsViewController.swift */; };
 		418456A02AA5C66500D636BB /* NewsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4184569E2AA5C66500D636BB /* NewsViewController.xib */; };
+		418456A42AA5DB6F00D636BB /* NeswDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418456A22AA5DB6F00D636BB /* NeswDetailsViewController.swift */; };
+		418456A52AA5DB6F00D636BB /* NeswDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 418456A32AA5DB6F00D636BB /* NeswDetailsViewController.xib */; };
+		41E480372AA6137500044D2E /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E480362AA6137500044D2E /* NetworkManager.swift */; };
+		41E480392AA613A400044D2E /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E480382AA613A400044D2E /* Reachability.swift */; };
+		41E4803B2AA6163600044D2E /* NetWorkEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E4803A2AA6163600044D2E /* NetWorkEnums.swift */; };
+		90B956A6F342C625DE1624A4 /* Pods_SeamLabsTaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C87C6C8AD31B990176EF29A /* Pods_SeamLabsTaskTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +45,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		072394F613983FC22121AEC4 /* Pods-SeamLabsTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeamLabsTask.release.xcconfig"; path = "Target Support Files/Pods-SeamLabsTask/Pods-SeamLabsTask.release.xcconfig"; sourceTree = "<group>"; };
+		28389E4B77CCF18709BB2A1B /* Pods-SeamLabsTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeamLabsTask.debug.xcconfig"; path = "Target Support Files/Pods-SeamLabsTask/Pods-SeamLabsTask.debug.xcconfig"; sourceTree = "<group>"; };
+		323073A317F0F43D815EB757 /* Pods-SeamLabsTaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeamLabsTaskTests.release.xcconfig"; path = "Target Support Files/Pods-SeamLabsTaskTests/Pods-SeamLabsTaskTests.release.xcconfig"; sourceTree = "<group>"; };
 		4184565F2AA5C46E00D636BB /* SeamLabsTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeamLabsTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		418456622AA5C46E00D636BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		418456642AA5C46E00D636BB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +62,17 @@
 		418456882AA5C47300D636BB /* SeamLabsTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeamLabsTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		4184569D2AA5C66500D636BB /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
 		4184569E2AA5C66500D636BB /* NewsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsViewController.xib; sourceTree = "<group>"; };
+		418456A22AA5DB6F00D636BB /* NeswDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeswDetailsViewController.swift; sourceTree = "<group>"; };
+		418456A32AA5DB6F00D636BB /* NeswDetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NeswDetailsViewController.xib; sourceTree = "<group>"; };
+		41E480362AA6137500044D2E /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		41E480382AA613A400044D2E /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		41E4803A2AA6163600044D2E /* NetWorkEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorkEnums.swift; sourceTree = "<group>"; };
+		6C87C6C8AD31B990176EF29A /* Pods_SeamLabsTaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SeamLabsTaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8892BC430318FD34E48D5D05 /* Pods-SeamLabsTaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeamLabsTaskTests.debug.xcconfig"; path = "Target Support Files/Pods-SeamLabsTaskTests/Pods-SeamLabsTaskTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8B1936A73AEF20332F3F4EE2 /* Pods_SeamLabsTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SeamLabsTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F229D7F191F6FF114D31953B /* Pods-SeamLabsTask-SeamLabsTaskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeamLabsTask-SeamLabsTaskUITests.debug.xcconfig"; path = "Target Support Files/Pods-SeamLabsTask-SeamLabsTaskUITests/Pods-SeamLabsTask-SeamLabsTaskUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F280C27F34227ABD072CAD04 /* Pods-SeamLabsTask-SeamLabsTaskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeamLabsTask-SeamLabsTaskUITests.release.xcconfig"; path = "Target Support Files/Pods-SeamLabsTask-SeamLabsTaskUITests/Pods-SeamLabsTask-SeamLabsTaskUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F5428448729A8DCAFB26CBB2 /* Pods_SeamLabsTask_SeamLabsTaskUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SeamLabsTask_SeamLabsTaskUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				364098ED6E4CBCB51CA5FF80 /* Pods_SeamLabsTask.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90B956A6F342C625DE1624A4 /* Pods_SeamLabsTaskTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0943D6C2DD11F3DC6F479251 /* Pods_SeamLabsTask_SeamLabsTaskUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +110,8 @@
 				4184567B2AA5C47300D636BB /* SeamLabsTaskTests */,
 				418456852AA5C47300D636BB /* SeamLabsTaskUITests */,
 				418456602AA5C46E00D636BB /* Products */,
+				70DC540B525901839195C344 /* Pods */,
+				6D43474FE27E0419DA2F6352 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +132,7 @@
 				418456962AA5C49E00D636BB /* Resources */,
 				418456952AA5C49300D636BB /* AppFile */,
 				418456982AA5C50500D636BB /* Extensions */,
+				418456AB2AA5DBD400D636BB /* Networking */,
 			);
 			path = SeamLabsTask;
 			sourceTree = "<group>";
@@ -149,6 +177,7 @@
 		418456972AA5C4C800D636BB /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				418456A12AA5DB5900D636BB /* NeswDetails */,
 				418456992AA5C54F00D636BB /* News */,
 			);
 			path = Screens;
@@ -164,6 +193,7 @@
 		418456992AA5C54F00D636BB /* News */ = {
 			isa = PBXGroup;
 			children = (
+				418456AA2AA5DB9B00D636BB /* Coordiantor */,
 				4184569C2AA5C59E00D636BB /* ViewModel */,
 				4184569B2AA5C59900D636BB /* View */,
 				4184569A2AA5C59100D636BB /* Model */,
@@ -194,6 +224,87 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		418456A12AA5DB5900D636BB /* NeswDetails */ = {
+			isa = PBXGroup;
+			children = (
+				418456A92AA5DB9300D636BB /* Coordinator */,
+				418456A82AA5DB7F00D636BB /* ViewModel */,
+				418456A72AA5DB7A00D636BB /* View */,
+				418456A62AA5DB7600D636BB /* Model */,
+			);
+			path = NeswDetails;
+			sourceTree = "<group>";
+		};
+		418456A62AA5DB7600D636BB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		418456A72AA5DB7A00D636BB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				418456A22AA5DB6F00D636BB /* NeswDetailsViewController.swift */,
+				418456A32AA5DB6F00D636BB /* NeswDetailsViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		418456A82AA5DB7F00D636BB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		418456A92AA5DB9300D636BB /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		418456AA2AA5DB9B00D636BB /* Coordiantor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Coordiantor;
+			sourceTree = "<group>";
+		};
+		418456AB2AA5DBD400D636BB /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				41E480362AA6137500044D2E /* NetworkManager.swift */,
+				41E480382AA613A400044D2E /* Reachability.swift */,
+				41E4803A2AA6163600044D2E /* NetWorkEnums.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		6D43474FE27E0419DA2F6352 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B1936A73AEF20332F3F4EE2 /* Pods_SeamLabsTask.framework */,
+				F5428448729A8DCAFB26CBB2 /* Pods_SeamLabsTask_SeamLabsTaskUITests.framework */,
+				6C87C6C8AD31B990176EF29A /* Pods_SeamLabsTaskTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		70DC540B525901839195C344 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				28389E4B77CCF18709BB2A1B /* Pods-SeamLabsTask.debug.xcconfig */,
+				072394F613983FC22121AEC4 /* Pods-SeamLabsTask.release.xcconfig */,
+				F229D7F191F6FF114D31953B /* Pods-SeamLabsTask-SeamLabsTaskUITests.debug.xcconfig */,
+				F280C27F34227ABD072CAD04 /* Pods-SeamLabsTask-SeamLabsTaskUITests.release.xcconfig */,
+				8892BC430318FD34E48D5D05 /* Pods-SeamLabsTaskTests.debug.xcconfig */,
+				323073A317F0F43D815EB757 /* Pods-SeamLabsTaskTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -201,9 +312,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4184568C2AA5C47300D636BB /* Build configuration list for PBXNativeTarget "SeamLabsTask" */;
 			buildPhases = (
+				135F64FBCFD1B9DF4A0696EE /* [CP] Check Pods Manifest.lock */,
 				4184565B2AA5C46E00D636BB /* Sources */,
 				4184565C2AA5C46E00D636BB /* Frameworks */,
 				4184565D2AA5C46E00D636BB /* Resources */,
+				8938894EB66A86A691306DDA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -218,6 +331,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4184568F2AA5C47300D636BB /* Build configuration list for PBXNativeTarget "SeamLabsTaskTests" */;
 			buildPhases = (
+				88629D486CCCC1E970231A5F /* [CP] Check Pods Manifest.lock */,
 				418456742AA5C47300D636BB /* Sources */,
 				418456752AA5C47300D636BB /* Frameworks */,
 				418456762AA5C47300D636BB /* Resources */,
@@ -236,9 +350,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 418456922AA5C47300D636BB /* Build configuration list for PBXNativeTarget "SeamLabsTaskUITests" */;
 			buildPhases = (
+				B543F4B862652C92284127F2 /* [CP] Check Pods Manifest.lock */,
 				4184567E2AA5C47300D636BB /* Sources */,
 				4184567F2AA5C47300D636BB /* Frameworks */,
 				418456802AA5C47300D636BB /* Resources */,
+				35A1034B7FA4347FE128A95A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -298,6 +414,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				418456A52AA5DB6F00D636BB /* NeswDetailsViewController.xib in Resources */,
 				418456722AA5C47200D636BB /* LaunchScreen.storyboard in Resources */,
 				4184566F2AA5C47200D636BB /* Assets.xcassets in Resources */,
 				418456A02AA5C66500D636BB /* NewsViewController.xib in Resources */,
@@ -320,15 +437,122 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		135F64FBCFD1B9DF4A0696EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SeamLabsTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		35A1034B7FA4347FE128A95A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SeamLabsTask-SeamLabsTaskUITests/Pods-SeamLabsTask-SeamLabsTaskUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SeamLabsTask-SeamLabsTaskUITests/Pods-SeamLabsTask-SeamLabsTaskUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SeamLabsTask-SeamLabsTaskUITests/Pods-SeamLabsTask-SeamLabsTaskUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88629D486CCCC1E970231A5F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SeamLabsTaskTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8938894EB66A86A691306DDA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SeamLabsTask/Pods-SeamLabsTask-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SeamLabsTask/Pods-SeamLabsTask-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SeamLabsTask/Pods-SeamLabsTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B543F4B862652C92284127F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SeamLabsTask-SeamLabsTaskUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4184565B2AA5C46E00D636BB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41E480392AA613A400044D2E /* Reachability.swift in Sources */,
+				41E480372AA6137500044D2E /* NetworkManager.swift in Sources */,
 				4184566D2AA5C46E00D636BB /* SeamLabsTask.xcdatamodeld in Sources */,
 				418456632AA5C46E00D636BB /* AppDelegate.swift in Sources */,
 				418456652AA5C46E00D636BB /* SceneDelegate.swift in Sources */,
 				4184569F2AA5C66500D636BB /* NewsViewController.swift in Sources */,
+				418456A42AA5DB6F00D636BB /* NeswDetailsViewController.swift in Sources */,
+				41E4803B2AA6163600044D2E /* NetWorkEnums.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -492,6 +716,7 @@
 		};
 		4184568D2AA5C47300D636BB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28389E4B77CCF18709BB2A1B /* Pods-SeamLabsTask.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -520,6 +745,7 @@
 		};
 		4184568E2AA5C47300D636BB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 072394F613983FC22121AEC4 /* Pods-SeamLabsTask.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -548,6 +774,7 @@
 		};
 		418456902AA5C47300D636BB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8892BC430318FD34E48D5D05 /* Pods-SeamLabsTaskTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -568,6 +795,7 @@
 		};
 		418456912AA5C47300D636BB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 323073A317F0F43D815EB757 /* Pods-SeamLabsTaskTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -588,6 +816,7 @@
 		};
 		418456932AA5C47300D636BB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F229D7F191F6FF114D31953B /* Pods-SeamLabsTask-SeamLabsTaskUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -606,6 +835,7 @@
 		};
 		418456942AA5C47300D636BB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F280C27F34227ABD072CAD04 /* Pods-SeamLabsTask-SeamLabsTaskUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		418456632AA5C46E00D636BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418456622AA5C46E00D636BB /* AppDelegate.swift */; };
+		418456652AA5C46E00D636BB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418456642AA5C46E00D636BB /* SceneDelegate.swift */; };
+		418456672AA5C46E00D636BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418456662AA5C46E00D636BB /* ViewController.swift */; };
+		4184566A2AA5C46E00D636BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 418456682AA5C46E00D636BB /* Main.storyboard */; };
+		4184566D2AA5C46E00D636BB /* SeamLabsTask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4184566B2AA5C46E00D636BB /* SeamLabsTask.xcdatamodeld */; };
+		4184566F2AA5C47200D636BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4184566E2AA5C47200D636BB /* Assets.xcassets */; };
+		418456722AA5C47200D636BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 418456702AA5C47200D636BB /* LaunchScreen.storyboard */; };
+		4184567D2AA5C47300D636BB /* SeamLabsTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4184567C2AA5C47300D636BB /* SeamLabsTaskTests.swift */; };
+		418456872AA5C47300D636BB /* SeamLabsTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418456862AA5C47300D636BB /* SeamLabsTaskUITests.swift */; };
+		418456892AA5C47300D636BB /* SeamLabsTaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418456882AA5C47300D636BB /* SeamLabsTaskUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		418456792AA5C47300D636BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 418456572AA5C46E00D636BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4184565E2AA5C46E00D636BB;
+			remoteInfo = SeamLabsTask;
+		};
+		418456832AA5C47300D636BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 418456572AA5C46E00D636BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4184565E2AA5C46E00D636BB;
+			remoteInfo = SeamLabsTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4184565F2AA5C46E00D636BB /* SeamLabsTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeamLabsTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		418456622AA5C46E00D636BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		418456642AA5C46E00D636BB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		418456662AA5C46E00D636BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		418456692AA5C46E00D636BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4184566C2AA5C46E00D636BB /* SeamLabsTask.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SeamLabsTask.xcdatamodel; sourceTree = "<group>"; };
+		4184566E2AA5C47200D636BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		418456712AA5C47200D636BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		418456732AA5C47200D636BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		418456782AA5C47300D636BB /* SeamLabsTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeamLabsTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4184567C2AA5C47300D636BB /* SeamLabsTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeamLabsTaskTests.swift; sourceTree = "<group>"; };
+		418456822AA5C47300D636BB /* SeamLabsTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeamLabsTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		418456862AA5C47300D636BB /* SeamLabsTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeamLabsTaskUITests.swift; sourceTree = "<group>"; };
+		418456882AA5C47300D636BB /* SeamLabsTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeamLabsTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4184565C2AA5C46E00D636BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		418456752AA5C47300D636BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4184567F2AA5C47300D636BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		418456562AA5C46E00D636BB = {
+			isa = PBXGroup;
+			children = (
+				418456612AA5C46E00D636BB /* SeamLabsTask */,
+				4184567B2AA5C47300D636BB /* SeamLabsTaskTests */,
+				418456852AA5C47300D636BB /* SeamLabsTaskUITests */,
+				418456602AA5C46E00D636BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		418456602AA5C46E00D636BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4184565F2AA5C46E00D636BB /* SeamLabsTask.app */,
+				418456782AA5C47300D636BB /* SeamLabsTaskTests.xctest */,
+				418456822AA5C47300D636BB /* SeamLabsTaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		418456612AA5C46E00D636BB /* SeamLabsTask */ = {
+			isa = PBXGroup;
+			children = (
+				418456622AA5C46E00D636BB /* AppDelegate.swift */,
+				418456642AA5C46E00D636BB /* SceneDelegate.swift */,
+				418456662AA5C46E00D636BB /* ViewController.swift */,
+				418456682AA5C46E00D636BB /* Main.storyboard */,
+				4184566E2AA5C47200D636BB /* Assets.xcassets */,
+				418456702AA5C47200D636BB /* LaunchScreen.storyboard */,
+				418456732AA5C47200D636BB /* Info.plist */,
+				4184566B2AA5C46E00D636BB /* SeamLabsTask.xcdatamodeld */,
+			);
+			path = SeamLabsTask;
+			sourceTree = "<group>";
+		};
+		4184567B2AA5C47300D636BB /* SeamLabsTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				4184567C2AA5C47300D636BB /* SeamLabsTaskTests.swift */,
+			);
+			path = SeamLabsTaskTests;
+			sourceTree = "<group>";
+		};
+		418456852AA5C47300D636BB /* SeamLabsTaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				418456862AA5C47300D636BB /* SeamLabsTaskUITests.swift */,
+				418456882AA5C47300D636BB /* SeamLabsTaskUITestsLaunchTests.swift */,
+			);
+			path = SeamLabsTaskUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4184565E2AA5C46E00D636BB /* SeamLabsTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4184568C2AA5C47300D636BB /* Build configuration list for PBXNativeTarget "SeamLabsTask" */;
+			buildPhases = (
+				4184565B2AA5C46E00D636BB /* Sources */,
+				4184565C2AA5C46E00D636BB /* Frameworks */,
+				4184565D2AA5C46E00D636BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SeamLabsTask;
+			productName = SeamLabsTask;
+			productReference = 4184565F2AA5C46E00D636BB /* SeamLabsTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		418456772AA5C47300D636BB /* SeamLabsTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4184568F2AA5C47300D636BB /* Build configuration list for PBXNativeTarget "SeamLabsTaskTests" */;
+			buildPhases = (
+				418456742AA5C47300D636BB /* Sources */,
+				418456752AA5C47300D636BB /* Frameworks */,
+				418456762AA5C47300D636BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4184567A2AA5C47300D636BB /* PBXTargetDependency */,
+			);
+			name = SeamLabsTaskTests;
+			productName = SeamLabsTaskTests;
+			productReference = 418456782AA5C47300D636BB /* SeamLabsTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		418456812AA5C47300D636BB /* SeamLabsTaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 418456922AA5C47300D636BB /* Build configuration list for PBXNativeTarget "SeamLabsTaskUITests" */;
+			buildPhases = (
+				4184567E2AA5C47300D636BB /* Sources */,
+				4184567F2AA5C47300D636BB /* Frameworks */,
+				418456802AA5C47300D636BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				418456842AA5C47300D636BB /* PBXTargetDependency */,
+			);
+			name = SeamLabsTaskUITests;
+			productName = SeamLabsTaskUITests;
+			productReference = 418456822AA5C47300D636BB /* SeamLabsTaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		418456572AA5C46E00D636BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					4184565E2AA5C46E00D636BB = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					418456772AA5C47300D636BB = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 4184565E2AA5C46E00D636BB;
+					};
+					418456812AA5C47300D636BB = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 4184565E2AA5C46E00D636BB;
+					};
+				};
+			};
+			buildConfigurationList = 4184565A2AA5C46E00D636BB /* Build configuration list for PBXProject "SeamLabsTask" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 418456562AA5C46E00D636BB;
+			productRefGroup = 418456602AA5C46E00D636BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4184565E2AA5C46E00D636BB /* SeamLabsTask */,
+				418456772AA5C47300D636BB /* SeamLabsTaskTests */,
+				418456812AA5C47300D636BB /* SeamLabsTaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4184565D2AA5C46E00D636BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				418456722AA5C47200D636BB /* LaunchScreen.storyboard in Resources */,
+				4184566F2AA5C47200D636BB /* Assets.xcassets in Resources */,
+				4184566A2AA5C46E00D636BB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		418456762AA5C47300D636BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		418456802AA5C47300D636BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4184565B2AA5C46E00D636BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4184566D2AA5C46E00D636BB /* SeamLabsTask.xcdatamodeld in Sources */,
+				418456672AA5C46E00D636BB /* ViewController.swift in Sources */,
+				418456632AA5C46E00D636BB /* AppDelegate.swift in Sources */,
+				418456652AA5C46E00D636BB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		418456742AA5C47300D636BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4184567D2AA5C47300D636BB /* SeamLabsTaskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4184567E2AA5C47300D636BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				418456872AA5C47300D636BB /* SeamLabsTaskUITests.swift in Sources */,
+				418456892AA5C47300D636BB /* SeamLabsTaskUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4184567A2AA5C47300D636BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4184565E2AA5C46E00D636BB /* SeamLabsTask */;
+			targetProxy = 418456792AA5C47300D636BB /* PBXContainerItemProxy */;
+		};
+		418456842AA5C47300D636BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4184565E2AA5C46E00D636BB /* SeamLabsTask */;
+			targetProxy = 418456832AA5C47300D636BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		418456682AA5C46E00D636BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				418456692AA5C46E00D636BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		418456702AA5C47200D636BB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				418456712AA5C47200D636BB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4184568A2AA5C47300D636BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4184568B2AA5C47300D636BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4184568D2AA5C47300D636BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NLMQ6J3UBG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SeamLabsTask/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SataTechnologyGroup.SeamLabsTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4184568E2AA5C47300D636BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NLMQ6J3UBG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SeamLabsTask/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SataTechnologyGroup.SeamLabsTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		418456902AA5C47300D636BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NLMQ6J3UBG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SataTechnologyGroup.SeamLabsTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SeamLabsTask.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SeamLabsTask";
+			};
+			name = Debug;
+		};
+		418456912AA5C47300D636BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NLMQ6J3UBG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SataTechnologyGroup.SeamLabsTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SeamLabsTask.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SeamLabsTask";
+			};
+			name = Release;
+		};
+		418456932AA5C47300D636BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NLMQ6J3UBG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SataTechnologyGroup.SeamLabsTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SeamLabsTask;
+			};
+			name = Debug;
+		};
+		418456942AA5C47300D636BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NLMQ6J3UBG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SataTechnologyGroup.SeamLabsTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SeamLabsTask;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4184565A2AA5C46E00D636BB /* Build configuration list for PBXProject "SeamLabsTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4184568A2AA5C47300D636BB /* Debug */,
+				4184568B2AA5C47300D636BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4184568C2AA5C47300D636BB /* Build configuration list for PBXNativeTarget "SeamLabsTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4184568D2AA5C47300D636BB /* Debug */,
+				4184568E2AA5C47300D636BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4184568F2AA5C47300D636BB /* Build configuration list for PBXNativeTarget "SeamLabsTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				418456902AA5C47300D636BB /* Debug */,
+				418456912AA5C47300D636BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		418456922AA5C47300D636BB /* Build configuration list for PBXNativeTarget "SeamLabsTaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				418456932AA5C47300D636BB /* Debug */,
+				418456942AA5C47300D636BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4184566B2AA5C46E00D636BB /* SeamLabsTask.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4184566C2AA5C46E00D636BB /* SeamLabsTask.xcdatamodel */,
+			);
+			currentVersion = 4184566C2AA5C46E00D636BB /* SeamLabsTask.xcdatamodel */;
+			path = SeamLabsTask.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 418456572AA5C46E00D636BB /* Project object */;
+}

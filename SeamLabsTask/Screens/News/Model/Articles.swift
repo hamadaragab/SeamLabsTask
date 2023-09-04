@@ -33,5 +33,15 @@ struct Articles : Codable {
 		publishedAt = try values.decodeIfPresent(String.self, forKey: .publishedAt)
 		content = try values.decodeIfPresent(String.self, forKey: .content)
 	}
+    init(savedArticle: ArticlesData) {
+        self.author = savedArticle.author
+        self.title = savedArticle.title
+        self.description = savedArticle.description2
+        self.url = savedArticle.url
+        self.urlToImage = savedArticle.urlToImage
+        self.publishedAt = savedArticle.publishedAt
+        self.content = savedArticle.content
+        self.source = nil
+    }
 
 }

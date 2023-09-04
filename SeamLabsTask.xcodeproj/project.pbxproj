@@ -9,14 +9,14 @@
 /* Begin PBXBuildFile section */
 		418456632AA5C46E00D636BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418456622AA5C46E00D636BB /* AppDelegate.swift */; };
 		418456652AA5C46E00D636BB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418456642AA5C46E00D636BB /* SceneDelegate.swift */; };
-		418456672AA5C46E00D636BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418456662AA5C46E00D636BB /* ViewController.swift */; };
-		4184566A2AA5C46E00D636BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 418456682AA5C46E00D636BB /* Main.storyboard */; };
 		4184566D2AA5C46E00D636BB /* SeamLabsTask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4184566B2AA5C46E00D636BB /* SeamLabsTask.xcdatamodeld */; };
 		4184566F2AA5C47200D636BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4184566E2AA5C47200D636BB /* Assets.xcassets */; };
 		418456722AA5C47200D636BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 418456702AA5C47200D636BB /* LaunchScreen.storyboard */; };
 		4184567D2AA5C47300D636BB /* SeamLabsTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4184567C2AA5C47300D636BB /* SeamLabsTaskTests.swift */; };
 		418456872AA5C47300D636BB /* SeamLabsTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418456862AA5C47300D636BB /* SeamLabsTaskUITests.swift */; };
 		418456892AA5C47300D636BB /* SeamLabsTaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418456882AA5C47300D636BB /* SeamLabsTaskUITestsLaunchTests.swift */; };
+		4184569F2AA5C66500D636BB /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4184569D2AA5C66500D636BB /* NewsViewController.swift */; };
+		418456A02AA5C66500D636BB /* NewsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4184569E2AA5C66500D636BB /* NewsViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +40,6 @@
 		4184565F2AA5C46E00D636BB /* SeamLabsTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeamLabsTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		418456622AA5C46E00D636BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		418456642AA5C46E00D636BB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		418456662AA5C46E00D636BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		418456692AA5C46E00D636BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4184566C2AA5C46E00D636BB /* SeamLabsTask.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SeamLabsTask.xcdatamodel; sourceTree = "<group>"; };
 		4184566E2AA5C47200D636BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		418456712AA5C47200D636BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +49,8 @@
 		418456822AA5C47300D636BB /* SeamLabsTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeamLabsTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		418456862AA5C47300D636BB /* SeamLabsTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeamLabsTaskUITests.swift; sourceTree = "<group>"; };
 		418456882AA5C47300D636BB /* SeamLabsTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeamLabsTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4184569D2AA5C66500D636BB /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		4184569E2AA5C66500D636BB /* NewsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +101,10 @@
 		418456612AA5C46E00D636BB /* SeamLabsTask */ = {
 			isa = PBXGroup;
 			children = (
-				418456622AA5C46E00D636BB /* AppDelegate.swift */,
-				418456642AA5C46E00D636BB /* SceneDelegate.swift */,
-				418456662AA5C46E00D636BB /* ViewController.swift */,
-				418456682AA5C46E00D636BB /* Main.storyboard */,
-				4184566E2AA5C47200D636BB /* Assets.xcassets */,
-				418456702AA5C47200D636BB /* LaunchScreen.storyboard */,
-				418456732AA5C47200D636BB /* Info.plist */,
-				4184566B2AA5C46E00D636BB /* SeamLabsTask.xcdatamodeld */,
+				418456972AA5C4C800D636BB /* Screens */,
+				418456962AA5C49E00D636BB /* Resources */,
+				418456952AA5C49300D636BB /* AppFile */,
+				418456982AA5C50500D636BB /* Extensions */,
 			);
 			path = SeamLabsTask;
 			sourceTree = "<group>";
@@ -128,6 +124,74 @@
 				418456882AA5C47300D636BB /* SeamLabsTaskUITestsLaunchTests.swift */,
 			);
 			path = SeamLabsTaskUITests;
+			sourceTree = "<group>";
+		};
+		418456952AA5C49300D636BB /* AppFile */ = {
+			isa = PBXGroup;
+			children = (
+				418456622AA5C46E00D636BB /* AppDelegate.swift */,
+				418456642AA5C46E00D636BB /* SceneDelegate.swift */,
+			);
+			path = AppFile;
+			sourceTree = "<group>";
+		};
+		418456962AA5C49E00D636BB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4184566E2AA5C47200D636BB /* Assets.xcassets */,
+				418456702AA5C47200D636BB /* LaunchScreen.storyboard */,
+				418456732AA5C47200D636BB /* Info.plist */,
+				4184566B2AA5C46E00D636BB /* SeamLabsTask.xcdatamodeld */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		418456972AA5C4C800D636BB /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				418456992AA5C54F00D636BB /* News */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		418456982AA5C50500D636BB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		418456992AA5C54F00D636BB /* News */ = {
+			isa = PBXGroup;
+			children = (
+				4184569C2AA5C59E00D636BB /* ViewModel */,
+				4184569B2AA5C59900D636BB /* View */,
+				4184569A2AA5C59100D636BB /* Model */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		4184569A2AA5C59100D636BB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4184569B2AA5C59900D636BB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4184569D2AA5C66500D636BB /* NewsViewController.swift */,
+				4184569E2AA5C66500D636BB /* NewsViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4184569C2AA5C59E00D636BB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,7 +300,7 @@
 			files = (
 				418456722AA5C47200D636BB /* LaunchScreen.storyboard in Resources */,
 				4184566F2AA5C47200D636BB /* Assets.xcassets in Resources */,
-				4184566A2AA5C46E00D636BB /* Main.storyboard in Resources */,
+				418456A02AA5C66500D636BB /* NewsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +326,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4184566D2AA5C46E00D636BB /* SeamLabsTask.xcdatamodeld in Sources */,
-				418456672AA5C46E00D636BB /* ViewController.swift in Sources */,
 				418456632AA5C46E00D636BB /* AppDelegate.swift in Sources */,
 				418456652AA5C46E00D636BB /* SceneDelegate.swift in Sources */,
+				4184569F2AA5C66500D636BB /* NewsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,14 +365,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		418456682AA5C46E00D636BB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				418456692AA5C46E00D636BB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		418456702AA5C47200D636BB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -443,10 +499,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = NLMQ6J3UBG;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SeamLabsTask/Info.plist;
+				INFOPLIST_FILE = SeamLabsTask/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -471,10 +527,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = NLMQ6J3UBG;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SeamLabsTask/Info.plist;
+				INFOPLIST_FILE = SeamLabsTask/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

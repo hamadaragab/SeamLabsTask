@@ -9,9 +9,10 @@
 /* Begin PBXBuildFile section */
 		0943D6C2DD11F3DC6F479251 /* Pods_SeamLabsTask_SeamLabsTaskUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5428448729A8DCAFB26CBB2 /* Pods_SeamLabsTask_SeamLabsTaskUITests.framework */; };
 		364098ED6E4CBCB51CA5FF80 /* Pods_SeamLabsTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B1936A73AEF20332F3F4EE2 /* Pods_SeamLabsTask.framework */; };
+		410FA6E22AA64A5C00A771C1 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410FA6E12AA64A5C00A771C1 /* Date.swift */; };
 		414A0C0B2AA627BE0000F52C /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414A0C092AA627BE0000F52C /* NewsCell.swift */; };
 		414A0C0C2AA627BE0000F52C /* NewsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 414A0C0A2AA627BE0000F52C /* NewsCell.xib */; };
-		414A0C102AA628AF0000F52C /* BaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414A0C0D2AA628AF0000F52C /* BaseResponse.swift */; };
+		414A0C102AA628AF0000F52C /* ArticlesResponseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414A0C0D2AA628AF0000F52C /* ArticlesResponseData.swift */; };
 		414A0C112AA628AF0000F52C /* Articles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414A0C0E2AA628AF0000F52C /* Articles.swift */; };
 		414A0C122AA628AF0000F52C /* Source.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414A0C0F2AA628AF0000F52C /* Source.swift */; };
 		414A0C152AA62A420000F52C /* Spinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414A0C142AA62A420000F52C /* Spinner.swift */; };
@@ -60,9 +61,10 @@
 		072394F613983FC22121AEC4 /* Pods-SeamLabsTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeamLabsTask.release.xcconfig"; path = "Target Support Files/Pods-SeamLabsTask/Pods-SeamLabsTask.release.xcconfig"; sourceTree = "<group>"; };
 		28389E4B77CCF18709BB2A1B /* Pods-SeamLabsTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeamLabsTask.debug.xcconfig"; path = "Target Support Files/Pods-SeamLabsTask/Pods-SeamLabsTask.debug.xcconfig"; sourceTree = "<group>"; };
 		323073A317F0F43D815EB757 /* Pods-SeamLabsTaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeamLabsTaskTests.release.xcconfig"; path = "Target Support Files/Pods-SeamLabsTaskTests/Pods-SeamLabsTaskTests.release.xcconfig"; sourceTree = "<group>"; };
+		410FA6E12AA64A5C00A771C1 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 		414A0C092AA627BE0000F52C /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
 		414A0C0A2AA627BE0000F52C /* NewsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsCell.xib; sourceTree = "<group>"; };
-		414A0C0D2AA628AF0000F52C /* BaseResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseResponse.swift; sourceTree = "<group>"; };
+		414A0C0D2AA628AF0000F52C /* ArticlesResponseData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticlesResponseData.swift; sourceTree = "<group>"; };
 		414A0C0E2AA628AF0000F52C /* Articles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Articles.swift; sourceTree = "<group>"; };
 		414A0C0F2AA628AF0000F52C /* Source.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Source.swift; sourceTree = "<group>"; };
 		414A0C142AA62A420000F52C /* Spinner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spinner.swift; sourceTree = "<group>"; };
@@ -232,6 +234,7 @@
 			isa = PBXGroup;
 			children = (
 				41A935CF2AA62BAC00CDABC4 /* UIImageView.swift */,
+				410FA6E12AA64A5C00A771C1 /* Date.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -251,7 +254,7 @@
 			isa = PBXGroup;
 			children = (
 				414A0C0E2AA628AF0000F52C /* Articles.swift */,
-				414A0C0D2AA628AF0000F52C /* BaseResponse.swift */,
+				414A0C0D2AA628AF0000F52C /* ArticlesResponseData.swift */,
 				414A0C0F2AA628AF0000F52C /* Source.swift */,
 			);
 			path = Model;
@@ -604,11 +607,12 @@
 				41A935D02AA62BAC00CDABC4 /* UIImageView.swift in Sources */,
 				414A0C0B2AA627BE0000F52C /* NewsCell.swift in Sources */,
 				41E480372AA6137500044D2E /* NetworkManager.swift in Sources */,
-				414A0C102AA628AF0000F52C /* BaseResponse.swift in Sources */,
+				414A0C102AA628AF0000F52C /* ArticlesResponseData.swift in Sources */,
 				414A0C152AA62A420000F52C /* Spinner.swift in Sources */,
 				41A935CE2AA62B1900CDABC4 /* BaseViewController.swift in Sources */,
 				41A935D82AA62F6D00CDABC4 /* NewsViewModel.swift in Sources */,
 				4184566D2AA5C46E00D636BB /* SeamLabsTask.xcdatamodeld in Sources */,
+				410FA6E22AA64A5C00A771C1 /* Date.swift in Sources */,
 				418456632AA5C46E00D636BB /* AppDelegate.swift in Sources */,
 				41A935D62AA62F1300CDABC4 /* NewsCoordinator.swift in Sources */,
 				418456652AA5C46E00D636BB /* SceneDelegate.swift in Sources */,

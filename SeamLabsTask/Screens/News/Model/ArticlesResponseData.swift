@@ -1,7 +1,7 @@
 
 
 import Foundation
-struct BaseResponse : Codable {
+struct ArticlesResponseData : Codable {
 	let status : String?
 	let totalResults : Int?
 	let articles : [Articles]?

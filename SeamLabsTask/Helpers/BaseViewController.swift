@@ -29,6 +29,12 @@ class BaseViewController: UIViewController  {
             self.view.isUserInteractionEnabled = true
             Spinner().hideFrom(self.view)
         }
-        
+    }
+    func showAlert(message:String) {
+        let alert = UIAlertController(title: "Alert", message: message, preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "OK", style: .default, handler: { action in
+           print("Ok Tapped")
+        }))
+        self.present(alert, animated: true, completion: nil)
     }
 }

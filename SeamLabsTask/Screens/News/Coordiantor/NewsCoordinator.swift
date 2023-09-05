@@ -22,7 +22,8 @@ class NewsCoordinator: BaseCoordinator {
     }
     override func start(parentCoordinator: Coordinator) {
         let controller = NewsViewController()
-        let viewModel = NewsViewModel()
+        let newsServices = NewsServices()
+        let viewModel = NewsViewModel(newsServices: newsServices)
         controller.viewModel = viewModel
         controller.coordinator = self
         presentingStyle(viewController: controller)

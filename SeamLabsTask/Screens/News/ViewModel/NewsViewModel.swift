@@ -10,14 +10,14 @@ import RxSwift
 import RxCocoa
 class NewsViewModel {
     private let disposeBag = DisposeBag()
-    let newsServices : NewsServicesProtocol?
+    let newsServices: NewsServicesProtocol?
     let showLoading = BehaviorRelay<Bool>(value: false)
     let isFailedToGetData = BehaviorRelay<String>(value: "")
     let articles = BehaviorRelay<[Articles]>(value: [])
     lazy var dataBaseManager:DatabaseManager = {
         return DatabaseManager(context: PersistenceController.shared.container.viewContext)
     }()
-    init(newsServices: NewsServicesProtocol? = NewsServices()){
+    init(newsServices: NewsServicesProtocol?){
         self.newsServices = newsServices
         // get Articles At Constants.testDate = "2023-08-24"
         getArticles(fromDate: Constants.testDate)
@@ -41,10 +41,14 @@ class NewsViewModel {
         })
     }
     private func saveArticles(articles:[Articles]){
-        dataBaseManager.saveNewArticls(articles)
+        DispatchQueue.global().async {
+            self.dataBaseManager.saveNewArticls(articles)
+        }
     }
     private func retrieveArticles(){
-        let savedArticles = dataBaseManager.fetchSavedArticles()
-        self.articles.accept(savedArticles)
+        DispatchQueue.global().async {
+            let savedArticles = self.dataBaseManager.fetchSavedArticles()
+            self.articles.accept(savedArticles)
+        }
     }
 }

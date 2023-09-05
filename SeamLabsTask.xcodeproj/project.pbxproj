@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0943D6C2DD11F3DC6F479251 /* Pods_SeamLabsTask_SeamLabsTaskUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5428448729A8DCAFB26CBB2 /* Pods_SeamLabsTask_SeamLabsTaskUITests.framework */; };
 		364098ED6E4CBCB51CA5FF80 /* Pods_SeamLabsTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B1936A73AEF20332F3F4EE2 /* Pods_SeamLabsTask.framework */; };
+		410BF1522AA78A81001359F7 /* NewsServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410BF1512AA78A81001359F7 /* NewsServices.swift */; };
 		410FA6E22AA64A5C00A771C1 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410FA6E12AA64A5C00A771C1 /* Date.swift */; };
 		410FA6E42AA6569D00A771C1 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410FA6E32AA6569D00A771C1 /* DatabaseManager.swift */; };
 		410FA6E62AA658D000A771C1 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410FA6E52AA658D000A771C1 /* PersistenceController.swift */; };
@@ -17,6 +18,7 @@
 		410FA6EC2AA65FDB00A771C1 /* NeswDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410FA6EB2AA65FDB00A771C1 /* NeswDetailsViewModel.swift */; };
 		410FA6EE2AA6671800A771C1 /* UiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410FA6ED2AA6671800A771C1 /* UiView.swift */; };
 		410FA6F02AA667CD00A771C1 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410FA6EF2AA667CD00A771C1 /* String.swift */; };
+		412DB42A2AA75C6100B38F82 /* NewsViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412DB4292AA75C6100B38F82 /* NewsViewModelTest.swift */; };
 		414A0C0B2AA627BE0000F52C /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414A0C092AA627BE0000F52C /* NewsCell.swift */; };
 		414A0C0C2AA627BE0000F52C /* NewsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 414A0C0A2AA627BE0000F52C /* NewsCell.xib */; };
 		414A0C102AA628AF0000F52C /* ArticlesResponseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414A0C0D2AA628AF0000F52C /* ArticlesResponseData.swift */; };
@@ -28,7 +30,6 @@
 		4184566D2AA5C46E00D636BB /* ArticlesData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4184566B2AA5C46E00D636BB /* ArticlesData.xcdatamodeld */; };
 		4184566F2AA5C47200D636BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4184566E2AA5C47200D636BB /* Assets.xcassets */; };
 		418456722AA5C47200D636BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 418456702AA5C47200D636BB /* LaunchScreen.storyboard */; };
-		4184567D2AA5C47300D636BB /* SeamLabsTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4184567C2AA5C47300D636BB /* SeamLabsTaskTests.swift */; };
 		418456872AA5C47300D636BB /* SeamLabsTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418456862AA5C47300D636BB /* SeamLabsTaskUITests.swift */; };
 		418456892AA5C47300D636BB /* SeamLabsTaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418456882AA5C47300D636BB /* SeamLabsTaskUITestsLaunchTests.swift */; };
 		4184569F2AA5C66500D636BB /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4184569D2AA5C66500D636BB /* NewsViewController.swift */; };
@@ -68,6 +69,7 @@
 		072394F613983FC22121AEC4 /* Pods-SeamLabsTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeamLabsTask.release.xcconfig"; path = "Target Support Files/Pods-SeamLabsTask/Pods-SeamLabsTask.release.xcconfig"; sourceTree = "<group>"; };
 		28389E4B77CCF18709BB2A1B /* Pods-SeamLabsTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeamLabsTask.debug.xcconfig"; path = "Target Support Files/Pods-SeamLabsTask/Pods-SeamLabsTask.debug.xcconfig"; sourceTree = "<group>"; };
 		323073A317F0F43D815EB757 /* Pods-SeamLabsTaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeamLabsTaskTests.release.xcconfig"; path = "Target Support Files/Pods-SeamLabsTaskTests/Pods-SeamLabsTaskTests.release.xcconfig"; sourceTree = "<group>"; };
+		410BF1512AA78A81001359F7 /* NewsServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NewsServices.swift; path = ../../../../../../Documents/NewsServices.swift; sourceTree = "<group>"; };
 		410FA6E12AA64A5C00A771C1 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 		410FA6E32AA6569D00A771C1 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
 		410FA6E52AA658D000A771C1 /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 		410FA6EB2AA65FDB00A771C1 /* NeswDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeswDetailsViewModel.swift; sourceTree = "<group>"; };
 		410FA6ED2AA6671800A771C1 /* UiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiView.swift; sourceTree = "<group>"; };
 		410FA6EF2AA667CD00A771C1 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		412DB4292AA75C6100B38F82 /* NewsViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewModelTest.swift; sourceTree = "<group>"; };
 		414A0C092AA627BE0000F52C /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
 		414A0C0A2AA627BE0000F52C /* NewsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsCell.xib; sourceTree = "<group>"; };
 		414A0C0D2AA628AF0000F52C /* ArticlesResponseData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticlesResponseData.swift; sourceTree = "<group>"; };
@@ -90,7 +93,6 @@
 		418456712AA5C47200D636BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		418456732AA5C47200D636BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		418456782AA5C47300D636BB /* SeamLabsTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeamLabsTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4184567C2AA5C47300D636BB /* SeamLabsTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeamLabsTaskTests.swift; sourceTree = "<group>"; };
 		418456822AA5C47300D636BB /* SeamLabsTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeamLabsTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		418456862AA5C47300D636BB /* SeamLabsTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeamLabsTaskUITests.swift; sourceTree = "<group>"; };
 		418456882AA5C47300D636BB /* SeamLabsTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeamLabsTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -143,6 +145,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		410BF1502AA78A59001359F7 /* Serivces */ = {
+			isa = PBXGroup;
+			children = (
+				410BF1512AA78A81001359F7 /* NewsServices.swift */,
+			);
+			path = Serivces;
+			sourceTree = "<group>";
+		};
 		414A0C082AA627970000F52C /* tableViewCell */ = {
 			isa = PBXGroup;
 			children = (
@@ -202,7 +212,7 @@
 		4184567B2AA5C47300D636BB /* SeamLabsTaskTests */ = {
 			isa = PBXGroup;
 			children = (
-				4184567C2AA5C47300D636BB /* SeamLabsTaskTests.swift */,
+				412DB4292AA75C6100B38F82 /* NewsViewModelTest.swift */,
 			);
 			path = SeamLabsTaskTests;
 			sourceTree = "<group>";
@@ -259,6 +269,7 @@
 		418456992AA5C54F00D636BB /* News */ = {
 			isa = PBXGroup;
 			children = (
+				410BF1502AA78A59001359F7 /* Serivces */,
 				418456AA2AA5DB9B00D636BB /* Coordiantor */,
 				4184569C2AA5C59E00D636BB /* ViewModel */,
 				4184569B2AA5C59900D636BB /* View */,
@@ -648,6 +659,7 @@
 				414A0C112AA628AF0000F52C /* Articles.swift in Sources */,
 				41E4803B2AA6163600044D2E /* NetWorkEnums.swift in Sources */,
 				410FA6EA2AA65F2800A771C1 /* NewsDateilsCoordinator.swift in Sources */,
+				410BF1522AA78A81001359F7 /* NewsServices.swift in Sources */,
 				410FA6E42AA6569D00A771C1 /* DatabaseManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -656,7 +668,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4184567D2AA5C47300D636BB /* SeamLabsTaskTests.swift in Sources */,
+				412DB42A2AA75C6100B38F82 /* NewsViewModelTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

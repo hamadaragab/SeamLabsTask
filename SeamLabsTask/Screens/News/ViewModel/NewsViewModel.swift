@@ -10,55 +10,35 @@ import RxSwift
 import RxCocoa
 class NewsViewModel {
     private let disposeBag = DisposeBag()
+    let newsServices : NewsServicesProtocol?
     let showLoading = BehaviorRelay<Bool>(value: false)
     let isFailedToGetData = BehaviorRelay<String>(value: "")
     let articles = BehaviorRelay<[Articles]>(value: [])
     lazy var dataBaseManager:DatabaseManager = {
-       return DatabaseManager(context: PersistenceController.shared.container.viewContext)
+        return DatabaseManager(context: PersistenceController.shared.container.viewContext)
     }()
-
-    init(){
-        // use test date for first time
-        // because toDay Date will not return Data
-        // test Date "2023-08-24"
+    init(newsServices: NewsServicesProtocol? = NewsServices()){
+        self.newsServices = newsServices
+        // get Articles At Constants.testDate = "2023-08-24"
         getArticles(fromDate: Constants.testDate)
     }
-     func getArticles(fromDate: String) {
+    
+    func getArticles(fromDate: String)  {
         self.showLoading.accept(true)
-         self.articles.accept([])
-        let newsURL = "https://newsapi.org/v2/everything?q=tesla&from=\(fromDate)&sortBy=publishedAt&apiKey=ce637c49af384243b6907c0b26147f22"
-        NetworkManager.makeRequest(withURL: newsURL, responseType: ArticlesResponseData.self, method: .GET
-                          , parameters: nil)
-        .subscribe(onNext: { [weak self] response in
-            self?.showLoading.accept(false)
-            self?.didGetArticle(response: response)
-        }, onError: {[weak self]  error in
-            self?.showLoading.accept(false)
-            self?.didFalidToGetArticles(error: error)
+        self.articles.accept([])
+        self.newsServices?.getArticles(fromDate: fromDate, completion: {[weak self] articles, error in
+            guard let self = self else {return}
+            self.showLoading.accept(false)
+            if let articles = articles{
+                self.articles.accept(articles)
+                self.saveArticles(articles: articles)
+            }else if let error = error, error == .NoInternet {
+                self.isFailedToGetData.accept(error.rawValue)
+                self.retrieveArticles()
+            }else {
+                self.isFailedToGetData.accept(error?.rawValue ?? "")
+            }
         })
-        .disposed(by: disposeBag)
-    }
-    private func didGetArticle(response: ArticlesResponseData) {
-        guard let status = response.status, status == "ok" else {
-            self.isFailedToGetData.accept("error Status not Ok")
-            return
-        }
-        if let articles = response.articles , !articles.isEmpty {
-            self.articles.accept(articles)
-            self.saveArticles(articles: articles)
-        }else {
-            self.isFailedToGetData.accept("No articles found please select another Date")
-        }
-    }
-    private func didFalidToGetArticles(error: Error) {
-        guard let error = error as? ErrorStatus else {return}
-           if error == .NoInternet {
-               // get article from Core Data
-               self.isFailedToGetData.accept(error.rawValue)
-               retrieveArticles()
-        }else {
-            self.isFailedToGetData.accept(error.rawValue)
-        }
     }
     private func saveArticles(articles:[Articles]){
         dataBaseManager.saveNewArticls(articles)

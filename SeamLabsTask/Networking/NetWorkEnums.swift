@@ -11,7 +11,7 @@ enum ErrorStatus: String, Error {
     case InvalidUrl = "The Requested Url Is Invalid"
     case UnexpectedError = "We are sorry, unexpected error occured our team will solve this problem as soon as possible"
     case ParsingError = "We are sorry, there is a problem our team will solve this problem as soon as possible"
-    
+    case NoAritcles = "No articles found please select another Date"
 }
 enum HttpMethod: String {
     case POST = "Post"

@@ -1,0 +1,42 @@
+PODS:
+  - Cosmos (23.0.0)
+  - IQKeyboardManagerSwift (6.5.11)
+  - Kingfisher (7.7.0)
+  - RPCircularProgress (0.5.0)
+  - RxCocoa (6.5.0):
+    - RxRelay (= 6.5.0)
+    - RxSwift (= 6.5.0)
+  - RxRelay (6.5.0):
+    - RxSwift (= 6.5.0)
+  - RxSwift (6.5.0)
+
+DEPENDENCIES:
+  - Cosmos (~> 23.0)
+  - IQKeyboardManagerSwift
+  - Kingfisher
+  - RPCircularProgress
+  - RxCocoa
+  - RxSwift
+
+SPEC REPOS:
+  trunk:
+    - Cosmos
+    - IQKeyboardManagerSwift
+    - Kingfisher
+    - RPCircularProgress
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+
+SPEC CHECKSUMS:
+  Cosmos: b5c6a9a637e28a061b54c8f8b1d8529d7d4db73f
+  IQKeyboardManagerSwift: c7955c0bdbf7b2eb29bb7daaa44e3d90f55a9a85
+  Kingfisher: f043ac666dfc96c1f37604f93effb45a7ee3a3e1
+  RPCircularProgress: 4499d4a1453dfbd3fe5bd8c6f344fd51cff3ad00
+  RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
+  RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
+
+PODFILE CHECKSUM: 2d57644e4f0fcef5128e825601e58fb05d3f8106
+
+COCOAPODS: 1.12.1
